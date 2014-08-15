@@ -1,0 +1,25 @@
+{
+    "name": "mrkrstphr/dbunit-fixture-arrays",
+    "description": "PHPUnit DbUnit Native Array-based Fixtures",
+    "type": "library",
+    "license": "MIT",
+    "keywords": ["phpunit", "dbunit"],
+    "homepage": "http://github.com/mrkrstphr/dbunit-fixture-arrays",
+    "authors": [
+        {
+            "name": "Kristopher Wilson",
+            "email": "kristopherwilson@gmail.com",
+            "role": "lead"
+        }
+    ],
+    "require": {
+        "php": ">=5.5",
+        "phpunit/phpunit": ">=3.7.0@stable",
+        "phpunit/dbunit": ">=1.3.0@stable"
+    },
+    "autoload": {
+        "psr-4": {
+            "Mrkrstphr\\DbUnit\\DataSet\\": ["src/", "tests/"]
+        }
+    }
+}
