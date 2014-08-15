@@ -2,6 +2,8 @@
 
 > A native PHP array-based fixture provider for PHPUnit's DbUnit
 
+![build status](https://api.travis-ci.org/mrkrstphr/dbunit-fixture-arrays.svg)
+
 dbunit-fixture-arrays provides the capability to provide fixtures (data sets) to 
 PHPUnit's DbUnit as native PHP arrays, as opposed to the many other drivers 
 currently supported by DbUnit, such as Yaml, XML, CSV, etc.
