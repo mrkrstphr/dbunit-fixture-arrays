@@ -63,4 +63,4 @@ less memory footprint due to not needing to parse Yaml or XML - your results may
 
 ## Contributing
 
-Suggestions or bugs? Submit an issue or open a pull request!
+Suggestions or bugs? Submit an issue or open a pull request.
