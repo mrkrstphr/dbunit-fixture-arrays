@@ -22,12 +22,8 @@ class ArrayDataSet extends PHPUnit_Extensions_Database_DataSet_AbstractDataSet
      */
     public function __construct($files = null)
     {
-        if (is_array($files)) {
-            foreach ($files as $file) {
-                $this->addFile($file);
-            }
-        } else if ($files) {
-            $this->addFile($files);
+        foreach ((array)$files as $file) {
+            $this->addFile($file);
         }
     }
 
